@@ -12,7 +12,7 @@ pipeline {
                                      }
                            }
                            stage('three') {
-                                      whem {
+                                      when {
                                              not {
                                                      branch "master"
                                                   }
